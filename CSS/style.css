@@ -64,18 +64,20 @@ section{
 .pizza-pate{
     height: 150px;
     width: 150px;
-    background-color: rgb(254, 214, 164);
-    border-radius: 50%;
+    background-color: #fed6a4;
+     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 #pepperoni{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
+    
+
 }
-.tomate-sauce{
+#tomate-sauce{
     height: 100px;
     width: 100px;
 }
@@ -92,12 +94,118 @@ section{
     height: 100px;
     width: 100px;
 }
-.olive-bol{
+#olive-bol{
     height: 100px;
     width: 120px;
 }
-#peperony-fried{
+#peperonyFried{
     display: none;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
+}
+#oliveCut{
+    height: 120px;
+    width: 120px;
+}
+
+.olives-con{
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.circle1{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+#olive1{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  
+}
+#olive2{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+#olive3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#olive4{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    
+}
+#olive5{
+    position: absolute;
+    left: 30px;
+    top: 40px;
+
+}
+#olive6{
+    position: absolute;
+    left: 60px;
+    top: 50px;
+
+}
+#olive7{
+    position: absolute;
+    left: 5px;
+    top: 70px;
+
+  
+}
+#olive8{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+#olive9{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+#olive10{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+#olive11{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+#olive12{
+    position: absolute;
+    left: 110px;
+    top: 50px;
+}
+
+#olive13{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+}
+
+#olive14{
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+#olive15{
+    position: absolute;
+    left: 20px;
+    top: 115px;
 }
